@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando no Canvas</title>
+    <!-- Linkando arquivo CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Configuração para inserir logo na aba do navegador -->
+    <link rel="icon" href="./assets/icons/logoraposo.png" type="image/png">
+    <!-- Configurações para exibir descrição quando enviado link da aplicação -->
+    <meta property="og:title" content="Desenhando no Canva com JavaScript">
+    <meta property="og:description" content="Página de desenho criada com JavaScript por Jefferson Raposo">
+    <!-- <meta property="og:image" content="./assets/img/clima.png"> -->
+</head>
+<body>
+    <h1>Desenhando no Canvas</h1>
+
+    <canvas id="tela" width="800" height="400"></canvas>
+
+    <div class="colorArea">
+        <div data-color="black" style="background-color: black" class="color active"></div>
+        <div data-color="blue" style="background-color: blue" class="color"></div>
+        <div data-color="red" style="background-color: red" class="color"></div>
+        <div data-color="green" style="background-color: green" class="color"></div>
+        <div data-color="yellow" style="background-color: yellow" class="color"></div>
+        <div data-color="gray" style="background-color: gray" class="color"></div>
+    </div>
+
+    <button class="clear">Limpar Quadro</button>
+
+    <footer>
+        <div class="creditos">
+            <p>Desenvolvido por <a href="https://raposo.dev.br/" target="_blank">Jefferson Raposo</a></p>
+            <div class="contatos">
+                <a href="https://www.linkedin.com/in/jefferson-raposo/" target="_blank"><img src="./assets/icons/icons8-linkedin-240.png" alt="Linkedin"></a>
+                <a href="https://github.com/jeffersonraposo" target="_blank"><img src="./assets/icons/icons8-github-250.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
